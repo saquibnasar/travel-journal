@@ -1,0 +1,21 @@
+@import "./font.scss";
+@import "./custom.scss";
+
+header {
+  background: #f55a5a;
+  .header--logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .header--title {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14.4608px;
+      line-height: 18px;
+      letter-spacing: -0.075em;
+      color: $white;
+      margin-left: 7px;
+    }
+  }
+}

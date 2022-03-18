@@ -1,0 +1,46 @@
+@import "./font.scss";
+@import "./custom.scss";
+.travel-info {
+  padding-inline: 40px;
+  margin-top: 50px;
+  .card {
+    display: flex;
+    margin-top: 36px;
+    @include media2 {
+      flex-direction: column;
+      text-align: center;
+    }
+    .travel--content {
+      margin-left: 19px;
+      @include media2 {
+        margin-left: 0px;
+        margin-top: 1rem;
+      }
+      .travel--data {
+        @include media2 {
+          justify-content: center;
+          margin-bottom: 1rem;
+        }
+        .travel--location {
+          margin-left: 4px;
+          margin-right: 12px;
+        }
+        .travel--google {
+          line-height: 12px;
+          text-decoration-line: underline;
+          color: #918e9b;
+        }
+      }
+      .travel--title {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 1px;
+        margin-block: 8px 25px;
+      }
+      .travel--date {
+        font-weight: 700;
+        line-height: 12px;
+      }
+    }
+  }
+}
